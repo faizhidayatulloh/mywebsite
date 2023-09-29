@@ -1,6 +1,16 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 body {margin: 0;}
 .wadah {
   background-color: black;
   margin: 0;
   height: 3000px;
+}
+h1 {
+  color:white;  
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
 }
