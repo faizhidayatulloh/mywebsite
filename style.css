@@ -1,9 +1,8 @@
-* {box-sizing: border-box;}
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-body {margin: 0;background-color: white;}
+body {margin: 0;background-color: blueviolet;}
+h1 {font-family: "Bebas Naue",cursive;}
