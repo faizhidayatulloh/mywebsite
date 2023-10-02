@@ -7,6 +7,7 @@ body {margin:0;}
 	height: 100%;
 	background-color:midnightblue;
 	text-align: center;
+	padding: 15% 0;
 }
 
 
@@ -19,7 +20,15 @@ body {margin:0;}
 
 span {
 	display: block;
-	font-family: Roboto,sans-serif;
+	font-family: 'Russo One', sans-serif;
 	font-weight: bold;
 	letter-spacing: 2px;
+	font-size:25px;
+	color: white;
+	text-shadow: 5px 5px blue;
+}
+
+q {
+	font-size: 25px;
+	color:white;
 }
