@@ -2,7 +2,7 @@ body {margin:10px;}
 .container {
 	background-color: indigo;
 	position: relative;
-	padding:20px 0;
+	padding:20px 0px;
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -20,4 +20,4 @@ body {margin:10px;}
 	position: relative;
 }
 .container2 h1 {text-align: center;font-family: Vardana,sans-serif;}
-.container2 p {font-family: Georgia,serif;}
+.container2 p {font-family: Georgia,serif;text-align: justify;}
