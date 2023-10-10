@@ -60,10 +60,15 @@ body {margin: 0;
 	padding-right: 10px;
 }
 .container2 h1 {
+	font-size: 2.5;
 	text-align: center;
 	font-family: Vardana,sans-serif;
 }
-.container2 p {font-family: Georgia,serif;text-align: left;}
+.container2 p {
+	font-family: Georgia,serif;
+	text-align: left;
+	font-size: 1.3vw;
+}
 
 /*tombol*/
 
@@ -80,6 +85,13 @@ body {margin: 0;
 }
 
 .nav_bawah a {
+	padding:0.5vw;
+	background-color: blue;
+	color:white;
 	display: block;
 	margin-inline: 20px;
+}
+
+.nav_bawah a:hover {
+	background-color: black;
 }
