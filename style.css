@@ -48,15 +48,8 @@ ul li {
 	margin:5px;
 	display: inline-block;
 }
-.container  a:active {
-	background-color: red;
-	color: yellow;
-}
-.container a:hover {
-	background-color: red;
-	color: yellow;
-}
 
+/*navigasi bawah*/
 .nav_bawah {
 	text-align: center;
 }
