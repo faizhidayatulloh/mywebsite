@@ -5,6 +5,7 @@ body {margin: 0;
 
 .container {
 	box-sizing: border-box;
+	border:2px solid red;
 	background-color: green;
 	position: sticky;
 	top:0;
@@ -34,8 +35,8 @@ body {margin: 0;
 	background-color: blue;
 	padding:2px;
 	color: white;
-	border-radius: 5px;
 	font-weight: bold;
+	padding:5px;
 }
 
 .container a:hover {
