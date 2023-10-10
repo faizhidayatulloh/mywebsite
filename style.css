@@ -5,7 +5,7 @@ body {margin: 0;
 
 .container {
 	box-sizing: border-box;
-	background-color: indigo;
+	background-color: green;
 	position: sticky;
 	top:0;
 	width: 100%;
@@ -17,11 +17,38 @@ body {margin: 0;
 }
 
 
-.isi {
+.isi_container {
 	color: white;
 	font-style: italic;
 	font-size: 20px;
 }
+
+.container ul {
+	list-style-type: none;
+	margin-top:5px;
+}
+
+.container a:link {
+	text-decoration: none;
+	display: inline-block;
+	background-color: blue;
+	padding:2px;
+	color: yellow;
+	border-radius: 5px;
+}
+
+.container a:hover {
+	background-color: black;
+}
+
+.container a:active {
+	background-color: black;
+}
+.container li {
+	margin:5px;
+	display: inline-block;
+}
+
 /*wadah keajaiban membaca*/
 .container2 {
 	background-color: pink;
@@ -29,25 +56,16 @@ body {margin: 0;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.container2 h1 {text-align: center;font-family: Vardana,sans-serif;}
+.container2 h1 {
+	text-align: center;
+	font-family: Vardana,sans-serif;
+}
 .container2 p {font-family: Georgia,serif;text-align: left;}
 
 /*tombol*/
-ul {
-	list-style-type: none;
-	margin-top:5px;
-}
-ul a {
-	text-decoration: none;
-	display: inline-block;
-	background-color: blue;
-	padding:2px;
-	color: yellow;
-}
-ul li {
-	margin:5px;
-	display: inline-block;
-}
+
+
+
 
 /*navigasi bawah*/
 .nav_bawah {
