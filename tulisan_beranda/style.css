@@ -4,17 +4,17 @@ body {margin: 0;
 }
 
 .container {
-	font-size: 3vw;
+	font-size: 30px;
 	box-sizing: border-box;
 	background-color: green;
 	position: sticky;
 	top:0;
 	width: 100%;
-	height: 12vw;
+	height: 120px;
 	text-align: center;
 	z-index: 1;
-	padding-left: 2vw;
-	padding-right: 1.5vw;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 
@@ -22,7 +22,7 @@ body {margin: 0;
 	margin-bottom: 0;
 	color: white;
 	font-style: italic;
-	font-size: 3vw;
+	font-size: 30px;
 }
 
 .container ul {
@@ -61,14 +61,12 @@ body {margin: 0;
 	padding-right: 10px;
 }
 .container2 h1 {
-	font-size: 2.5;
 	text-align: center;
 	font-family: Vardana,sans-serif;
 }
 .container2 p {
 	font-family: Georgia,serif;
 	text-align: left;
-	font-size: 1.3vw;
 }
 
 /*tombol*/
@@ -86,9 +84,8 @@ body {margin: 0;
 }
 
 .nav_bawah a {
-	border: 1px solid black;
-	font-size: 2vw;
-	padding:0.5vw;
+	font-size:20px;
+	padding:5px;
 	background-color: blue;
 	color:white;
 	display: block;
