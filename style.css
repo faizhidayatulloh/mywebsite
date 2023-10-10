@@ -31,7 +31,7 @@ body {margin: 0;
 
 .container a:link {
 	text-decoration: none;
-	display: inline-block;
+	display:block;
 	background-color: blue;
 	padding:2px;
 	color: white;
@@ -72,4 +72,13 @@ body {margin: 0;
 /*navigasi bawah*/
 .nav_bawah {
 	text-align: center;
+}
+
+.nav_bawah li{
+	display: inline-block;
+}
+
+.nav_bawah a {
+	display: block;
+	margin-inline: 20px;
 }
