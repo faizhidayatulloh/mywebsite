@@ -4,6 +4,7 @@ body {margin: 0;
 }
 
 .container {
+	font-size: 1.3vw;
 	box-sizing: border-box;
 	background-color: green;
 	position: sticky;
@@ -12,27 +13,27 @@ body {margin: 0;
 	height: 100%;
 	text-align: center;
 	z-index: 1;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 2vw;
+	padding-right: 1.5vw;
 }
 
 
 .isi_container {
 	color: white;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 
 .container ul {
 	list-style-type: none;
-	margin-top:5px;
+	margin-top:1px;
 }
 
-.container a:link {
+.container a:link,a:visited {
 	text-decoration: none;
 	display:block;
 	background-color: blue;
-	padding:2px;
+	padding:2vw;
 	color: white;
 	font-weight: bold;
 	padding:5px;
@@ -48,6 +49,7 @@ body {margin: 0;
 .container li {
 	margin:5px;
 	display: inline-block;
+	width: 10vw;
 }
 
 /*wadah keajaiban membaca*/
