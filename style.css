@@ -4,7 +4,7 @@ body {margin: 0;
 }
 
 .container {
-	font-size: 1.3vw;
+	font-size: 3vw;
 	box-sizing: border-box;
 	background-color: green;
 	position: sticky;
@@ -21,22 +21,19 @@ body {margin: 0;
 .isi_container {
 	color: white;
 	font-style: italic;
-	font-size: 1.5vw;
+	font-size: 3vw;
 }
 
 .container ul {
 	list-style-type: none;
-	margin-top:1px;
 }
 
 .container a:link,a:visited {
 	text-decoration: none;
 	display:block;
 	background-color: blue;
-	padding:2vw;
 	color: white;
 	font-weight: bold;
-	padding:5px;
 }
 
 .container a:hover {
@@ -47,9 +44,9 @@ body {margin: 0;
 	background-color: black;
 }
 .container li {
-	margin:5px;
+	margin:3vw;
 	display: inline-block;
-	width: 10vw;
+	width: 20vw;
 }
 
 /*wadah keajaiban membaca*/
