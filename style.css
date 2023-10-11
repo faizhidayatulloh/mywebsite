@@ -33,13 +33,13 @@ body {margin: 0;
 
 
 .container a{
-	width: 100px;
+	width: 90px;
 	height: auto;
 	font-family: Vardana,sans-serif;
 	padding:5px;
 	text-align: center;
-	margin-inline: 10px;
-    display: inline-block;
+	margin-inline: 0px;
+  display: inline-block;
 }
 
 .container a:link,a:visited {
