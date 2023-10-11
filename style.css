@@ -1,3 +1,9 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 body {margin: 0;
 	background-color: white;
 	background-size: cover;
@@ -24,17 +30,20 @@ body {margin: 0;
 	font-size: 20px;
 }
 
-.container ul {
-	text-align: center;
-	margin: 0;
-	list-style-type: none;
-}
 
-.container a{font-family: Vardana,sans-serif; padding:5px;box-sizing: border-box;text-align: center;}
+
+.container a{
+	width: 100px;
+	height: auto;
+	font-family: Vardana,sans-serif;
+	padding:5px;
+	text-align: center;
+	margin-inline: 10px;
+    display: inline-block;
+}
 
 .container a:link,a:visited {
 	text-decoration: none;
-	display:block;
 	background-color: blue;
 	color: white;
 }
@@ -45,13 +54,6 @@ body {margin: 0;
 
 .container a:active {
 	background-color: black;
-}
-.container li {
-	text-align: center;
-	border:1px solid black;
-	margin:0;
-	display: inline-block;
-	width:auto;
 }
 
 /*wadah keajaiban membaca*/
@@ -81,18 +83,17 @@ body {margin: 0;
 	text-align: center;
 }
 
-.nav_bawah li{
-	display: inline-block;
-}
 
 .nav_bawah a {
+	width: 150px;
+	height: auto;
 	font-family: Vardana,sans-serif;
 	border: 1px solid black;
 	font-size:15px;
 	padding:5px;
 	background-color: blue;
 	color:white;
-	display: block;
+	display: inline-block;
 	margin-inline: 20px;
 	text-decoration: none;
 }
