@@ -27,7 +27,7 @@ body {margin: 0;
 	margin-bottom: 0;
 	color: black;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 
@@ -73,7 +73,7 @@ body {margin: 0;
 }
 .container2 p {
 	font-family: Georgia,serif;
-	text-align: left;
+	text-align: justify;
 }
 
 /*tombol*/
