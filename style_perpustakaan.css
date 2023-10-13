@@ -5,7 +5,7 @@
 }
 
 body {margin: 0;
-	background-color: black;
+	background-color: white;
 	background-size: cover;
 }
 
@@ -52,9 +52,8 @@ body {margin: 0;
 }
 
 .container2 {
-	margin-left: 5%;
 	margin-top:10px;
-	background-color: black;
+	background-color: white;
 	position: relative;
 	/*padding-left: 10px;
 	padding-right: 10px;*/
@@ -71,7 +70,7 @@ body {margin: 0;
 
 .galeri_buku {
 	float: left;
-	width: 30%;
+	width: 50%;
 	border: 2px solid white;
 }
 
@@ -81,7 +80,7 @@ body {margin: 0;
 }
 
 .judul_buku {
-	color: white;
+	color: black;
 	text-align: center;
 	font-weight: bold;
 	font-style: italic;
